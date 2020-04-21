@@ -1,0 +1,35 @@
+<view class="container">
+  <!-- swiper部分 -->
+  <view class="swiper">
+    <swiper autoplay="true" interval="3000">
+      <swiper-item><image src="/static/images/u=1726933927,2950134446&fm=26&gp=0.jpg"></image></swiper-item>
+      <swiper-item><image src="/static/images/01554f59a3d3cda8012028a9901540.jpg@1280w_1l_2o_100sh.jpg"></image></swiper-item>
+    </swiper>
+  </view>
+  <!-- 精选区域 -->
+  <view class="choose">
+    <view class="choose-l">
+      <text>精选</text>
+    </view>
+    <view class="choose-r">
+      <swiper vertical="true" autoplay="true" interval="3000" class="swiper-choose">
+        <swiper-item>恭喜XXX获得第xxx期大奖</swiper-item>
+        <swiper-item>恭喜XXX获得第xxx\\期大奖</swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <!-- 开奖好礼 -->
+  <view class="present">
+  <!-- 背景图 -->
+    <view class="present_bg">
+      <image src="/static/images/liangpin.jpg"></image>
+      
+    </view>
+    <!-- 开奖好礼渐变 -->
+    <view class="present_text">
+      <text>精彩好礼送不停</text>
+      <text>2019-10-25 12:00直播开讲</text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/make/make",
+    "pages/work/work",
+    "pages/money/money",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EB6100",
+    "navigationBarTitleText": "抽奖啊",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/make/make",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/work/work",
+      "text": "任务"
+    },{
+      "pagePath": "pages/money/money",
+      "text": "金币"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+  }
+
+}

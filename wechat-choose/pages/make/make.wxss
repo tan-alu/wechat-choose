@@ -1,0 +1,60 @@
+/* pages/make/make.wxss */
+.swiper{
+  /* width: 100%; */
+  padding:20rpx;
+}
+image{
+  border-radius: 20rpx;
+  height: 100%;
+  width: 720rpx;
+  /* padding-right: 20rpx; */
+}
+
+.choose{
+  display: flex;
+  flex-flow: row nowrap;
+  margin:10rpx;
+}
+.choose-l{
+  flex-grow: 50rpx;
+}
+.choose-l text{
+  background-color: #EB6100;
+  border-radius: 10rpx;
+  color: white;
+  padding: 1rpx 10rpx;
+  display: inline-block;
+  font-size: .8rem;
+  margin:0 10rpx;
+}
+.choose-r{
+  flex-grow: 1;
+}
+.swiper-choose{
+  height: 50rpx;
+}
+
+.present{
+  padding:20rpx;
+  width: 750rpx;
+
+  /* background-color: red; */
+}
+.present_bg{
+  height: 320rpx;
+  max-width: 100%;
+  position: absolute;
+  overflow: hidden;
+
+}
+.present_text{
+  height: 100rpx;
+  background-image: linear-gradient(to right, orange , rgba(0,0,0,.2));
+  color:white;
+  padding: 20rpx;
+  position: relative;
+  top:180rpx;
+}
+.present_text text{
+  display: block;
+}
