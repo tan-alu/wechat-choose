@@ -37,15 +37,13 @@ image{
 .present{
   padding:20rpx;
   width: 750rpx;
-
-  /* background-color: red; */
+  margin-bottom:200rpx;
 }
 .present_bg{
   height: 320rpx;
   max-width: 100%;
   position: absolute;
   overflow: hidden;
-
 }
 .present_text{
   height: 100rpx;
@@ -54,6 +52,7 @@ image{
   padding: 20rpx;
   position: relative;
   top:180rpx;
+  /* width: 750rpx; */
 }
 .present_text text{
   display: block;

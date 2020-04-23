@@ -20,10 +20,9 @@
   </view>
   <!-- 开奖好礼 -->
   <view class="present">
-  <!-- 背景图 -->
+    <!-- 背景图 -->
     <view class="present_bg">
       <image src="/static/images/liangpin.jpg"></image>
-      
     </view>
     <!-- 开奖好礼渐变 -->
     <view class="present_text">
@@ -31,5 +30,15 @@
       <text>2019-10-25 12:00直播开讲</text>
     </view>
   </view>
-
+    <view class="present">
+    <!-- 背景图 -->
+    <view class="present_bg">
+      <image src="/static/images/liangpin.jpg"></image>
+    </view>
+    <!-- 开奖好礼渐变 -->
+    <view class="present_text">
+      <text>精彩好礼送不停</text>
+      <text>2019-10-25 12:00直播开讲</text>
+    </view>
+  </view>
 </view>
