@@ -32,6 +32,7 @@ image{
 }
 .swiper-choose{
   height: 50rpx;
+  
 }
 
 .present{
